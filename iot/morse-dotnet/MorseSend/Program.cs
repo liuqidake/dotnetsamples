@@ -4,7 +4,7 @@ namespace Morse.Net
 {
     class Program
     {
-        static Dictionary<string, char> MorseDictionary = Morse.Net.Common.MorseDictionary;
+        static  Dictionary<string, char> MorseDictionary = Morse.Net.Common.MorseDictionary;
 
         static void Main()
         {
