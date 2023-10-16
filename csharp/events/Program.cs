@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace EventSampleCode
 {
     class Program
-    {
+     {
         static void Main(string[] args)
         {
             var fileLister = new FileSearcher();
             int filesFound = 0;
-
+            
             // <SnippetDeclareEventHandler>
             EventHandler<FileFoundArgs> onFileFound = (sender, eventArgs) =>
             {
