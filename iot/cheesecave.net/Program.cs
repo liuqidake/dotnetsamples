@@ -35,7 +35,7 @@ class Device
         failed
     }
 
-    private static void  Main(string[] args)
+    private static void Main(string[] args)
     {
         // Initialize the GPIO controller
         s_gpio = new GpioController();
